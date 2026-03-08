@@ -10,44 +10,39 @@ The project demonstrates sensor interfacing, embedded firmware design, and IoT c
 
 Features :- 
 
-Real-time air quality monitoring
-
-Multi-sensor integration
-
-OLED display visualization
-
-MQTT data publishing
-
-WiFi connectivity
-
-Automatic reconnection handling
-
-AQI calculation based on PM2.5 and PM10
-
-Modular firmware architecture
+- Real-time air quality monitoring
+- Multi-sensor integration
+- OLED display visualization
+- MQTT data publishing
+- WiFi connectivity
+- Automatic reconnection handling
+- AQI calculation based on PM2.5 and PM10
+- Modular firmware architecture
 
 Hardware Components :- 
 
-ESP32 Development Board
+- ESP32 Development Board
+- PMS7003 Particulate Matter Sensor
+- SCD41 CO₂ / Temperature / Humidity Sensor 
+- SGP30 Gas Sensor (TVOC, Hydrogen, Ethanol)
+- 0.96" OLED Display (SSD1306)
+- Breadboard and jumper wires
+  
+Measured Parameters :-
+Parameter	          Sensor
+CO₂             concentration	SCD41
+Temperature	         SCD41
+Humidity	           SCD41
+PM1.0	              PMS7003
+PM2.5	              PMS7003
+PM10	              PMS7003
+TVOC	               SGP30
+Hydrogen	           SGP30
+Ethanol	             SGP30
 
-PMS7003 Particulate Matter Sensor
-
-SCD41 CO₂ / Temperature / Humidity Sensor
-
-SGP30 Gas Sensor (TVOC, Hydrogen, Ethanol)
-
-0.96" OLED Display (SSD1306)
-
-Breadboard and jumper wires
-Measured Parameters
-Parameter	Sensor
-CO₂ concentration	SCD41
-Temperature	SCD41
-Humidity	SCD41
-PM1.0	PMS7003
-PM2.5	PMS7003
-PM10	PMS7003
-TVOC	SGP30
-Hydrogen	SGP30
-Ethanol	SGP30
 Air Quality Index	Calculated from PM2.5 and PM10
+
+Software Requirements :- 
+- VS Code
+- PlatformIO Extension
+- Arduino Framework for ESP32
