@@ -8,7 +8,7 @@ Sensor data is displayed locally on an OLED display and can also be transmitted 
 
 The project demonstrates sensor interfacing, embedded firmware design, and IoT communication using ESP32.
 
-Features
+Features :- 
 
 Real-time air quality monitoring
 
@@ -26,7 +26,7 @@ AQI calculation based on PM2.5 and PM10
 
 Modular firmware architecture
 
-Hardware Components
+Hardware Components :- 
 
 ESP32 Development Board
 
@@ -39,3 +39,15 @@ SGP30 Gas Sensor (TVOC, Hydrogen, Ethanol)
 0.96" OLED Display (SSD1306)
 
 Breadboard and jumper wires
+Measured Parameters
+Parameter	Sensor
+CO₂ concentration	SCD41
+Temperature	SCD41
+Humidity	SCD41
+PM1.0	PMS7003
+PM2.5	PMS7003
+PM10	PMS7003
+TVOC	SGP30
+Hydrogen	SGP30
+Ethanol	SGP30
+Air Quality Index	Calculated from PM2.5 and PM10
