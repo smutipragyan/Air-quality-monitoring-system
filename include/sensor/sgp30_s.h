@@ -1,8 +1,7 @@
-#pragma once
+#ifndef SGP30_S_H
+#define SGP30_S_H
 
-#ifndef GAS_SENSOR_H
-#define GAS_SENSOR_H
-
+#include <Arduino.h>
 #include <Wire.h>
 #include <Adafruit_SGP30.h>
 
