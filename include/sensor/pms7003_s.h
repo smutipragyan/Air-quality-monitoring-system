@@ -1,7 +1,5 @@
-#pragma once
-
-#ifndef PARTICLE_SENSOR_H
-#define PARTICLE_SENSOR_H
+#ifndef PMS7003_S_H
+#define PMS7003_S_H
 
 #include <HardwareSerial.h>
 
