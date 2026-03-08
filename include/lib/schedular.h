@@ -6,14 +6,14 @@
 #include <Arduino.h>
 
 // Sensor modules
-#include "include/sensor/pms7003_s.h"
-#include "include/sensor/scd41_s.h"
-#include "include/sensor/sgp30_s.h"
+#include "sensor/pms7003_s.h"
+#include "sensor/scd41_s.h"
+#include "sensor/sgp30_s.h"
 
 // System modules
-#include "include/lib/mqtt_client.h"
-#include "include/lib/display.h"
-#include "include/lib/wifi_manager.h"
+#include "lib/mqtt_client.h"
+#include "lib/display.h"
+#include "lib/wifi_manager.h"
 
 // Timing configuration
 constexpr unsigned long DISPLAY_SLEEP_TIME = 300000;      // 5 minutes
