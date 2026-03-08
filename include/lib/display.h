@@ -32,5 +32,3 @@ public:
                        float h2,
                        float ethanol);
 };
-
-#endif
