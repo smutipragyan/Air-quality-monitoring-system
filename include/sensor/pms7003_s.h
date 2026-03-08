@@ -1,6 +1,7 @@
 #ifndef PMS7003_S_H
 #define PMS7003_S_H
 
+#include <Arduino.h>
 #include <HardwareSerial.h>
 
 // UART pin configuration for PMS7003 dust sensor
@@ -18,17 +19,17 @@ private:
 
     static bool dataReady;
 
-    // Internal function to decode sensor frame
+    // Decode the 32-byte frame from the sensor
     static void decodeFrame(uint8_t* frameBuffer);
 
 public:
-    // Initialize UART communication with the sensor
+    // Initialize UART communication
     static void initialize();
 
-    // Read incoming data from sensor
+    // Read data from sensor
     static bool update();
 
-    // Check if new measurement is available
+    // Check if new data is available
     static bool available();
 
     // Getter functions
