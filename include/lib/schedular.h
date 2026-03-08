@@ -6,13 +6,13 @@
 #include <Arduino.h>
 
 // Sensor modules
-#include "include/sensors/pms7003_sensor.h"
-#include "include/sensors/scd41_sensor.h"
-#include "include/sensors/sgp30_sensor.h"
+#include "include/sensor/pms7003_s.h"
+#include "include/sensor/scd41_s.h"
+#include "include/sensor/sgp30_s.h"
 
 // System modules
 #include "include/lib/mqtt_client.h"
-#include "include/lib/oled_display.h"
+#include "include/lib/display.h"
 #include "include/lib/wifi_manager.h"
 
 // Timing configuration
