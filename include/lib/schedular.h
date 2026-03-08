@@ -6,9 +6,9 @@
 #include <Arduino.h>
 
 // Sensor modules
-#include "include/sensors/sgp30_sensor.h"
-#include "include/sensors/scd41_sensor.h"
 #include "include/sensors/pms7003_sensor.h"
+#include "include/sensors/scd41_sensor.h"
+#include "include/sensors/sgp30_sensor.h"
 
 // System modules
 #include "include/lib/mqtt_client.h"
