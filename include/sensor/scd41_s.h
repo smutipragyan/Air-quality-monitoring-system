@@ -1,8 +1,7 @@
-#pragma once
+#ifndef SCD41_S_H
+#define SCD41_S_H
 
-#ifndef ENVIRONMENT_SENSOR_H
-#define ENVIRONMENT_SENSOR_H
-
+#include <Arduino.h>
 #include <Wire.h>
 #include <SparkFun_SCD4x_Arduino_Library.h>
 
